@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="styles.css" rel="stylesheet" type="text/css">
-
+<link href="gallery.css" rel="stylesheet" type="text/css">
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
 </script>
@@ -86,46 +86,58 @@ for (i = 0; i < dropdown.length; i++) {
                 		
 
 			
-<h1><center>A Little About Us...</center></h1>
+<h1><center>Picture Gallery</center></h1>
 		<br>
-					<p>Here at the Magnificent Mushroom we not only value enviromental sustainability but also the sustainability of the community.
+                <br>
 
-					We offer a rotating selection of local craft beer on tap & canned, local artisan tea, carbonated juices, kombucha
-					coffee by <a href="https://www.sumpcoffee.com">Sump</a> and vegan baked goods by <a href="https://www.genuinelybakedstl.com">Genuinely Baked</a>.</p>
-					<br>
-					<table id="t03">
-					<tr>
-					<td>
-											<figure class="gbaked">	
-							<img src="assets/genuinelybaked.jpg">
-							<figcaption>Heavenly!</figcaption>
-						</figure>
-						<td>
-						
-						<h3>Stay Happy</h3>
-						<h3>Stay Healthy</h3>
-						<h3>Stay STL Local</h3>
-						
-						</tr>
-						</table>
-						<br>
-							<img src="assets/coffee_lab.jpg" class="coffeelab">
-                                                        <br>
-							<figcaption class="coffeelabfigure">Owner and Roaster of our coffee provider, Sump Coffee. Look at that beard!</figcaption>
-						
-					</figure></span>
-					<br>
-					<br>
-					<table>
-					<tr>
-					<h2><center>What people are saying...</center></h2>
-					<img src="assets/Highlights.JPG"  id="highlightsimg">
-					</tr>
-                                        <br
-					<tr>
-					<img src="assets/ExtraInfo.JPG" id="extrainfo" >
-					<tr>
-					</table> 
+                <center><div class="w3-content w3-display-container">
+  <img class="mySlides" src="assets/Gallery_pics/Baked.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/BBQ.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/BuffaloBeeb.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/ColdOne.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/Cookie.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/DrinkMenu.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/FlowerFront.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/Front.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/kitchen.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/MacCheese.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/MushroomStroganoff.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/outside.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/outside.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/PingPongTable.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/Spread.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/SquashNachos.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/TaterNachos.JPG" >
+  <img class="mySlides" src="assets/Gallery_pics/TaterNachos.JPG" >
+  
+  
+  
+  
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                    </div></center>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+					
 			
 			<footer class="clear">
 				<br><br><br><br><a href="#toppage"><img src="assets/Red_Pepper.png" width="124" height="60" class="centerfooter"><a/>

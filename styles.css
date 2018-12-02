@@ -730,6 +730,7 @@ filter: contrast(200%);
 
 
 @media screen and (max-width: 740px) {
+    
 
     body {
         font-size: 0.9em;
@@ -832,7 +833,7 @@ table.bordermenu tr {
         font-size: 0.8em;
     }
 
-    header,
+    header ,
     header h1 a,
     header h1 a:hover {
         text-align: center;
