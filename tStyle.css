@@ -28,10 +28,7 @@ tr:nth-child(odd) {
 	background-color:#c5e465; /*green*/
 }
 
-tr,td{
-	height: 75px; 
 
-}
 
 #glsfnf {
 	color: #555fff;
@@ -60,4 +57,7 @@ table.b {
 }
 table.b td{
 	width: 600px;
+}
+.c th{
+    height: 5px; 
 }

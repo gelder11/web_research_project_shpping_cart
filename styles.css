@@ -375,7 +375,7 @@ header img{
     height:125px;
 }
 header img:hover{
-    filter: saturate(7)
+    filter: saturate(4); 
 }
 
 header h1 {
@@ -712,7 +712,7 @@ figure.sump {
     text-decoration: none;   
 }
 .socialmediabtn img{
-    padding: 10px 5px; 
+    padding: 10px 10px; 
     height: 60px;
     width: 60px;  
 }
@@ -789,7 +789,13 @@ table.menuT1   {
     width: 100px;
     height: 100px;
     font-size: 0.65em; 
-     
+    
+}
+.socialmediabtn img{
+    padding: 10px 10px; 
+    height: 35px;
+    width: 35px;
+}
 }
 
 
