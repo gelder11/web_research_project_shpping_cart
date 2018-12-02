@@ -706,6 +706,17 @@ figure.sump {
 .coffeelabfigure{
   text-align: center;   
 }
+.socialmediabtn{
+    display: inline;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px; 
+}
+.socialmediabtn img{
+    height: 100px;
+    width: 100px; 
+}
 
 
 
