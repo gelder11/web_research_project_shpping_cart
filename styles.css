@@ -534,7 +534,7 @@ footer p a:hover {
 
 /** Menu Page **/
 #menuTd {
-    height: 600px;
+    height: 200px;
     width: 220px;
 }
 #menuheader{
@@ -802,18 +802,18 @@ table.menuT1   {
 #menuTd {
     border: 2px groove white;
     border-radius: 10px; 
-    height: 65px;
-    width: 105px;
+    height: 150px;
+    width: 150px;
     
 }
 
 #menuTd1 {
-    height: 65px;
-    width: 75px;
+    height: 200px;
+    width: 210px;
 }
 #menuTd2 {
-    height: 65px;
-    width: 75px;
+    height: 200px;
+    width: 210px;
 }
 table.bordermenu tr {
     border-style: outset;
@@ -903,7 +903,7 @@ video{
 
 .bordering {
     
-    height: 100px;
+    height: 500px;
     width: 120px;
     border-radius: 25px; 
     border: 1px solid black; 
@@ -924,6 +924,13 @@ table.bordermenu h3{
      margin: 0px; 
      padding-left: 10px; 
      padding-right: 10px; 
+}
+#menuTd {
+    border: 2px groove white;
+    border-radius: 10px; 
+    height: 100px;
+    width: 100px;
+    
 }
 
 
