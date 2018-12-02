@@ -6,7 +6,7 @@ table, th, td {
 	text-align: center;
 }
 th{
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-decoration: underline; 
 }
 tbody.scrollContent {
@@ -32,7 +32,7 @@ tr:nth-child(odd) {
 
 #glsfnf {
 	color: #555fff;
-	font-size: 1.0em;
+	font-size: 0.9em;
 }
 #menuCategory td {
 	border: none;
