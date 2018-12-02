@@ -114,8 +114,10 @@
                                     echo "<br><br><br>";
                                     echo "<div style=\"text-align: center;\">";
                                     echo "<table align=\"center\" class=\"menuT\">";
-                                    echo "<td height=\"49\" colspan=\"3\" bgcolor=\"white\">";
-                                    echo $product_array[$key]["category"] . " - $" . $product_array[$key]["price"] . " (per bottle)</td>";
+                                    echo "<tr>";
+                                    echo "<td height=\"49\" colspan=\"3\"  id=\"menuheader\"><h3>";
+                                    echo $product_array[$key]["category"] . " - $" . $product_array[$key]["price"] . " (per bottle)</h3></td>";
+                                    echo "</tr>"; 
                                     // use $inRow to keep track if a <tr> has been started
                                     $inRow = FALSE;
                                 } // end if ($cnt == 0)
@@ -127,7 +129,7 @@
                                 // create a column with the image of the beverage and its name
                                 echo "<td align=\"center\"> ";
                                 echo "<img src=\"" 
-                                    . $product_array[$key]["image"] . "\" id=\"menuTd\">" . $product_array[$key]["name"];
+                                    . $product_array[$key]["image"] . "\" id=\"menuTd\" <br><br><br>" . $product_array[$key]["name"];
                                 echo generateAction($product_array[$key]["id"]);
                                 echo "</td>";
                                 $cnt++;
@@ -168,7 +170,7 @@
                     <a href="menu.html" class="button">Return to Main Menu</a>
                     </div>  
                     <footer class="clear">
-                        <br><br><br><br><a href="#toppage"><img src="assets/Red_Pepper.png" width="124" height="60" class="centerfooter"><a/>
+                        <br><br><br><br><a href="#toppage"><img src="assets/Red_Pepper.png" class="centerfooter"><a/>
                     </footer>
 
                 </main>

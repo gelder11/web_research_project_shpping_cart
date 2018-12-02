@@ -4,14 +4,12 @@
 html{
     background-color: rgba(74, 74, 74, 1); 
  height: 100%;    
- 
   background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 body {
     margin: 0px auto;
-    
     padding: 0px;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1.0em;
@@ -55,7 +53,7 @@ video{
 
 .txt-heading {
 	color: #211a1a;
-	border-bottom: 1px solid #E0E0E0;
+	border-bottom: 1px inset #E0E0E0;
 	overflow: auto;
 }
 
@@ -69,17 +67,29 @@ video{
 	border-radius: 3px;
 	margin: 10px 0px;
 }
+#btnEmpty:hover{
+    background-color: #d00000;
+    color: #ffffff; 
+    border: #ffffff 1px solid;
+}
 
 .btnAddAction {
     padding: 5px 10px;
     margin-left: 5px;
-    background-color: #efefef;
+    background-color: #00BFFF;
     border: #E0E0E0 1px solid;
     color: #211a1a;
     float: right;
     text-decoration: none;
-    border-radius: 3px;
+    border-radius: 7px;
+    border: 2px outset black; 
     cursor: pointer;
+}
+.btnAddAction:hover{
+   background-color: #B0E0E6;  
+   color: black; 
+   border: 2px outset grey;
+   
 }
 
 #product-grid .txt-heading {
@@ -279,6 +289,10 @@ nav#mainnav .dropdown-btn {
     text-decoration: none;
     letter-spacing: 0.5px;
 }
+nav#mainnav .dropdown-btn:hover{
+    border-top: 1px solid #eee; 
+    color: #eee; 
+}
 
 
 /**href-links**/
@@ -357,6 +371,8 @@ header {
 }
 header img{
     border-radius: 15px; 
+    width: 200px;
+    height:125px;
 }
 
 header h1 {
@@ -394,7 +410,7 @@ header div.tagline a {
 /** body **/
 main#body {
     padding: 0;
-    background: ;
+    
 }
 
 /** content+sidebar styles **/
@@ -417,18 +433,21 @@ aside#sidebar {
     background: #222;
     width: 200px;
     position: fixed;
-    border-radius: 50px; 
+    border-radius:50px; 
 }
 
 nav#mainnav ul {
     padding: 0;
     margin: 0;
     list-style: none;
+    
+    
 }
 
 nav#mainnav li {
     padding: 0;
-    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+     
 }
 
 nav#mainnav li.selected-item {
@@ -443,10 +462,10 @@ nav#mainnav li.selected-item a:hover {
 }
 
 nav#mainnav li a:hover {
-    background: #292929;
+    border-top: 1px solid #eee; 
     color: #eee;
     text-decoration: none;
-    border-radius: 25px;
+    
 }
 
 nav#mainnav li a {
@@ -504,6 +523,11 @@ footer p a:hover {
     margin-left: auto;
     margin-right: auto;
     font-style: bold;
+    width: 124px; 
+    height: 60px; 
+}
+.centerfooter:hover{
+    filter: contrast(250%);
 }
 
 /** Menu Page **/
@@ -515,7 +539,7 @@ footer p a:hover {
     border: 1.99px groove black; 
     background-color: whitesmoke; 
     border-radius: 15px;   
-    height: 49px;
+    height: 20px;
     padding: 0; 
     margin: auto; 
 }
@@ -525,11 +549,36 @@ footer p a:hover {
     margin: 0px; 
     font-weight: bold;
     border-radius: 30px; 
-    border-style: groove;
+    border: 2px groove white;
     color: #000;
     box-shadow: 1px 4px 4px 1px;
 
 }
+#menuTd1 {
+    height: 200px;
+    width: 220px;
+    padding: 0px;
+    margin: 0px; 
+    font-weight: bold;
+    border-radius: 30px; 
+    border: 2px groove white;
+    color: #000;
+    box-shadow: 1px 4px 4px 1px;
+
+}
+#menuTd2 {
+    height: 200px;
+    width: 220px;
+    padding: 0px;
+    margin: 0px; 
+    font-weight: bold;
+    border-radius: 30px; 
+    border: 2px groove white;
+    color: #000;
+    box-shadow: 1px 4px 4px 1px;
+
+}
+
 
 table.bordermenu td {
     border-radius: 15px;
@@ -537,7 +586,6 @@ table.bordermenu td {
     text-align: left;
     
 }
-
 
 .bordering {
     height: 130px;
@@ -553,8 +601,20 @@ table.menuT {
     font-weight: bold;
     border-radius: 15px; 
     border-style: groove;
+    font-size: 0.7em; 
     color: #000;
+}
+table.menuT1 {
+    width: 700px;
+    height: 600px;
+    font-weight: bold;
+    border-radius: 15px; 
+    border-style: groove;
+    color: #000;
+}
 
+#menuTd1:hover{
+    filter: contrast(150%);
 }
 table.bordermenu p {
      font-size: 16px; 
@@ -705,9 +765,30 @@ video{
 table.menuT   {
     width: 100px;
     height: 100px;
-    font-size: 0.5em
+    font-size: 0.5em; 
+     
 }
+table.menuT1   {
+    width: 100px;
+    height: 100px;
+    font-size: 0.65em; 
+     
+}
+
+
 #menuTd {
+    border: 2px groove white;
+    border-radius: 15px; 
+    height: 65px;
+    width: 90px;
+    
+}
+
+#menuTd1 {
+    height: 65px;
+    width: 75px;
+}
+#menuTd2 {
     height: 65px;
     width: 75px;
 }
@@ -766,9 +847,34 @@ video{
     height: 125px;
     width: 250px; 
 }
-#menuTd {
+
+#menuTd1 {
     height: 75px;
     width: 90px;
+    border-radius: 15px; 
+    box-shadow: 1px 1px 1px 1px;
+    
+    
+}
+.btnAddAction {
+    padding: 2px 2px;
+    margin-left: 0px;
+    background-color: #00BFFF;
+    border: #E0E0E0 1px solid;
+    color: #211a1a;
+    float: none;
+    text-decoration: none;
+    border-radius: 7px;
+    border: 2px outset black; 
+    cursor: pointer;
+    text-align: center;
+    font-size: 10px;
+    
+}
+#menuTd2 {
+    height: 75px;
+    width: 90px;
+    border-radius: 15px;
     box-shadow: 1px 1px 1px 1px;
 }
 

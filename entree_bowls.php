@@ -27,7 +27,7 @@
                 <aside id="sidebar" class="column-left">
 
                     <header>
-                        <h1><a href="index.php"><img src="assets/Logo.jpg"   style="width:200px;height:125px;"></a></h1>
+                        <h1><a href="index.php"><img src="assets/Logo.jpg"></a></h1>
 
 
 
