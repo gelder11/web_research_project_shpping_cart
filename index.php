@@ -158,7 +158,24 @@ for (i = 0; i < dropdown.length; i++) {
                         <td><img src="assets/Food6.jpg" ></td>
                     </tr>
                 </table>
-
+                <br>
+<center><div class="socialmediabtn">
+                    <a href="https://www.facebook.com/Lulus-Local-Eatery-132285260224330/" target=“_blank” >
+                        <img title="Facebook" alt="Facebook" src="assets/facebook.png">    
+                    </a> 
+                    <a href="https://www.instagram.com/luluslocaleatery/">
+                        <img title="Instagram" alt="Instagram" src="assets/instagram.png" target=“_blank” >
+                    </a>
+                    <a href="https://twitter.com/lulusfoodtruck?lang=en">
+                        <img title="Twitter" alt="Twitter" src="assets/twitter.png" target=“_blank” >
+                    </a>
+                    <a href="https://www.yelp.com/biz/lulus-local-eatery-saint-louis-2" target=“_blank” >
+                        <img title="Yelp" alt="Yelp" src="assets/yelp.png">
+                    </a>
+                    <a href="https://www.google.com/maps/place/Lulu's+Local+Eatery,+LLC/@38.5989912,-90.2452744,17z/data=!3m1!4b1!4m5!3m4!1s0x87d8b4681f3835f5:0x5e32f72323d673d7!8m2!3d38.5989912!4d-90.2430857" target=“_blank” >
+                        <img title="Google" alt="Google" src="assets/lulugoogle.png">
+                    </a>
+                    </div></center>
 
 
 

@@ -374,6 +374,9 @@ header img{
     width: 200px;
     height:125px;
 }
+header img:hover{
+    filter: saturate(7)
+}
 
 header h1 {
     text-align: center;
@@ -522,7 +525,6 @@ footer p a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-style: bold;
     width: 124px; 
     height: 60px; 
 }
@@ -660,11 +662,9 @@ figure.gbaked {
 
 figure .Motto {
     padding-top: 50px;
-    float: center;
 }
 
 figure.sump {
-    float: center;
     height: 200px; 
     padding: 90px;
 }
@@ -709,13 +709,19 @@ figure.sump {
 .socialmediabtn{
     display: inline;
     text-align: center; 
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px; 
+    text-decoration: none;   
 }
 .socialmediabtn img{
-    height: 100px;
-    width: 100px; 
+    padding: 10px 5px; 
+    height: 60px;
+    width: 60px;  
+}
+.socialmediabtn img:hover{
+opacity: 0.7;
+filter: contrast(200%); 
+}
+.socialmediabtn a{
+   text-decoration: none; 
 }
 
 
@@ -754,7 +760,7 @@ figure.sump {
 #t01 img{
     width: 75px; 
     height: 75px;
-    border-radius: 25px; 
+    border-radius: 10px; 
 }
 table#t03 img{
     width: 100px; 
@@ -840,7 +846,7 @@ table.bordermenu tr {
 #t01 img{
     width: 75px; 
     height: 75px;
-    border-radius: 25px; 
+    border-radius: 10px; 
 }
 table#t03 img{
     width: 100px; 
