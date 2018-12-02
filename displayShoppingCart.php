@@ -10,7 +10,7 @@
         <table class="tbl-cart" cellpadding="10" cellspacing="1">
             <tbody>
                 <tr>
-                    <th style="text-align:left;">Name</th>                                    
+                    <th style="text-align:center;">Name</th>                                    
                     <th style="text-align:center;" width="5%">Quantity</th>
                     <th style="text-align:center;" width="10%">Unit Price</th>
                     <th style="text-align:center;" width="10%">Price</th>

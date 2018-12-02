@@ -33,6 +33,7 @@ video{
 
 
 
+
 #shopping-cart table {
 	width: 100%;
 	background-color: #778899;
@@ -49,7 +50,7 @@ video{
        
 }
 #shopping-cart table tr {
-	background-color: #FFFFFF;   
+	background-color: 		#C0C0C0;   
 }
 
 .txt-heading {
@@ -109,6 +110,8 @@ video{
 
 .tbl-cart th {
 	font-weight: normal;
+        text-decoration: underline;
+        font-weight: bold; 
 }
 
 .product-title {
@@ -176,14 +179,14 @@ table#t02 {
 table#t03 img{
     box-shadow: 5px 5px 5px ;
     border-radius: 15px;
+    
 }
-
-th,
-td {}
-
-th {}
-
-td {}
+#t03 table{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
 
 p {
@@ -208,30 +211,20 @@ a:focus {
     outline: none;
 }
 
-/**Butoon**/
-a.button {
-    background-color: #008CBA;
-    border-radius: 0px;
+/**Button**/
+.button {
+    text-align: center;
+    background-color: #00BFFF;
+    border: 4px groove #C0C0C0; 
+    border-radius: 10px;
     color: #FFFFFF;
     display: inline-block;
     font-weight: bold;
-    padding: 8px 22px;
-    font-size: 0.9em;
+    padding: 8px 5px;
+    font-size: 12px;
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    border: 0px solid #008CBA;
-}
-
-.btn-group-wrap {
-    text-align: center;
-}
-
-div.btn-group {
-    margin: 0 auto;
-    text-align: center;
-    width: inherit;
-    display: inline-block;
 }
 
 .btn-group-wrap {
@@ -239,12 +232,12 @@ div.btn-group {
 }
 
 .button:hover {
-    background-color: red;
-    /* Green */
-    color: black;
+    background-color: #DCDCDC;
+   border: 4px groove #D2691E;
+    color: #778899;
 }
 
-a.button-reversed {
+.button-reversed {
     background-color: #333;
 
 }
@@ -401,9 +394,8 @@ header div.tagline a {
 /** body **/
 main#body {
     padding: 0;
-    background: #2f2f2f;
+    background: ;
 }
-
 
 /** content+sidebar styles **/
 main#content {
@@ -540,10 +532,12 @@ footer p a:hover {
 }
 
 table.bordermenu td {
+    border-radius: 15px;
     border-style: outset;
     text-align: left;
     
 }
+
 
 .bordering {
     height: 130px;
@@ -561,6 +555,20 @@ table.menuT {
     border-style: groove;
     color: #000;
 
+}
+table.bordermenu p {
+     font-size: 16px; 
+     text-align: left;
+      
+     
+}
+
+table.bordermenu h3{
+     font-size: 27px; 
+     text-align: center; 
+     
+     padding-left: 10px; 
+     padding-right: 10px; 
 }
 
 
@@ -703,6 +711,11 @@ table.menuT   {
     height: 65px;
     width: 75px;
 }
+table.bordermenu tr {
+    border-style: outset;
+    text-align: left;
+    height: 100px; 
+    width: 100px;
 
 
 
@@ -758,5 +771,32 @@ video{
     width: 90px;
     box-shadow: 1px 1px 1px 1px;
 }
+
+.bordering {
+    
+    height: 100px;
+    width: 120px;
+    border-radius: 25px; 
+    border: 1px solid black; 
+    box-shadow: 0px 2px 2px;
+    font-size: .5em
+}
+table.bordermenu p {
+     font-size: 10px; 
+     text-align: center;
+     padding-bottom: 0px; 
+     margin-bottom: 0px
+}
+
+table.bordermenu h3{
+     font-size: 15px; 
+     text-align: center; 
+     padding: 0px;
+     margin: 0px; 
+     padding-left: 10px; 
+     padding-right: 10px; 
+}
+
+
 }
 

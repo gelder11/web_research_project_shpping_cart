@@ -105,7 +105,7 @@
                         <?php $page = "shopping_cart";
                         require_once("displayShoppingCart.php"); ?>
                     </section>
-
+                    <br>
                     <section class="checkout-section">
                         <?php require_once("checkout.php"); ?>
                     </section>

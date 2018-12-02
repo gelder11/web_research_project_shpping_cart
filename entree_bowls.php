@@ -133,11 +133,9 @@
                         </div>
                     </table>
                     <br>
-                    <div class="btn-group-wrap">
-                        <div class="btn-group">	
-                            <button align="center"><a href="menu.html" class="button"><b>Return to Main Menu</a></button>
-                        </div>
-                    </div>
+                    <div class="btn-group-wrap">	
+                    <a href="menu.html" class="button">Return to Main Menu</a>
+                    </div>  
                     <footer class="clear">
                         <br><br><br><br><a href="#toppage"><img src="assets/Red_Pepper.png" width="124" height="60" class="centerfooter"><a/>
                     </footer>
