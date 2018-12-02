@@ -534,7 +534,7 @@ footer p a:hover {
 
 /** Menu Page **/
 #menuTd {
-    height: 200px;
+    height: 600px;
     width: 220px;
 }
 #menuheader{
@@ -801,9 +801,9 @@ table.menuT1   {
 
 #menuTd {
     border: 2px groove white;
-    border-radius: 15px; 
+    border-radius: 10px; 
     height: 65px;
-    width: 90px;
+    width: 105px;
     
 }
 
@@ -873,8 +873,8 @@ video{
 
 #menuTd1 {
     height: 75px;
-    width: 90px;
-    border-radius: 15px; 
+    width: 105px;
+    border-radius: 10px; 
     box-shadow: 1px 1px 1px 1px;
     
     
@@ -896,8 +896,8 @@ video{
 }
 #menuTd2 {
     height: 75px;
-    width: 90px;
-    border-radius: 15px;
+    width: 105px;
+    border-radius: 10px;
     box-shadow: 1px 1px 1px 1px;
 }
 
