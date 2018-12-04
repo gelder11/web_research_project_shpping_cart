@@ -81,9 +81,9 @@
                     <h1 align="center">Burgers And Wraps</h1>
                     <br>
                     <br>
-                    <h5 align ="center">GL - (Gluten - Less)    SF - (Soy Free)   NF - (Nut Free)</h5>
+                    <p id="homeparagraph">GL - (Gluten - Less)    SF - (Soy Free)   NF - (Nut Free)</p>
 
-                    <h4 align ="center">Add billy goat chips for $1 more. / Add housemade coleslaw or tater tots for $2 more. / Add a side kale salad for $3 more.</h4>
+                    <p id="homeparagraph">Add billy goat chips for $1 more. / Add housemade coleslaw or tater tots for $2 more. / Add a side kale salad for $3 more.</p>
                     <?php $page = "burgers_and_wraps"; include_once('displayShoppingCart.php'); ?>
                     <table class="bordermenu"> 
                         <div id="product-grid">

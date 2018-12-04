@@ -183,10 +183,14 @@ table#t01 {
 }
 
 table#t02 {
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 900; 
     font-size: 18px; 
+    background: white;
+    border: inset silver;
+    border-radius: 15px; 
 
 
 }
@@ -330,11 +334,20 @@ h3 {
 #homelist{
 font-weight: 900;
 font-size: 18px; 
+line-height: 150%; 
+
 }
 #homeparagraph{
     font-weight: 900;
-font-size: 18px; 
-text-indent: 25px; 
+    font-size: 18px; 
+    text-indent: 25px;
+    background-color: white;
+    border: outset silver;
+    border-radius: 10px; 
+    padding-left: 10px;
+    padding-right: 10px; 
+    padding-top: 5px;
+    padding-bottom: 5px; 
 }
 
 h3#h31 {
@@ -349,10 +362,15 @@ h4 {
 
 h5 {
     padding-bottom: 10px;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #000;
     text-align: left; 
     text-indent: 25px; 
+    background-color: white; 
+    border: inset silver;
+    border-radius: 10px;
+    padding: 5px; 
+    line-height: 150%; 
 }
 
 ul,
@@ -454,7 +472,7 @@ aside#sidebar {
     background: #222;
     width: 200px;
     position: fixed;
-    border-radius:50px; 
+    border-radius: 30px; 
 }
 
 nav#mainnav ul {
@@ -731,7 +749,10 @@ figure.sump {
 .coffeelabfigure{
   font-weight: 900;
   font-size: 18px; 
-  text-align: center;   
+  text-align: center;  
+  background-color: white;
+  border: outset silver; 
+  border-radius: 15px; 
 }
 .socialmediabtn{
     display: inline;
@@ -852,6 +873,23 @@ table#t02 {
     font-size: 1em
 
 
+}
+#homeparagraph{
+    
+    font-size: 1.1em; 
+}
+#homelist{
+    font-size: 1.1em; 
+}
+.coffeelabfigure{
+  font-weight: 900;
+  font-size: 0.9em; 
+  text-align: center;  
+  background-color: white;
+  border: outset silver; 
+  border-radius: 5px;
+  
+  
 }
 
 
@@ -974,6 +1012,14 @@ table#t02 {
 }
 #homelist{
     font-size: 1.1em; 
+}
+.coffeelabfigure{
+  font-weight: 900;
+  font-size: 0.9em; 
+  text-align: center;  
+  background-color: white;
+  border: outset silver; 
+  border-radius: 5px; 
 }
 
 

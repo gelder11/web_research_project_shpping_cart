@@ -80,13 +80,13 @@
                 <main id="content" class="column-right">
 
 
-                    <div align="center"> 
-                        <h1>Starters-Salads-Sides</h1>
+                    
+                    <center><h1>Starters-Salads-Sides</h1></center>
                         <br>
                         <br>
-                        <h5>GL - (Gluten - Less)    SF - (Soy Free)   NF - (Nut Free)</h5>
+                        <p id="homeparagraph">GL - (Gluten - Less)    SF - (Soy Free)   NF - (Nut Free)</p>
                         <?php $page = "starters_salads_and_sides"; include_once('displayShoppingCart.php'); ?>
-                    </div> 
+                    
                     
 
 

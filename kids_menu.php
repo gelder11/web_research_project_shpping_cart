@@ -86,7 +86,7 @@
                     <h1 align="center">Kids Menu</h1>
                     <br>
                     <br>
-                    <h5 align ="center">GL - (Gluten - Less)    SF - (Soy Free)   NF - (Nut Free)</h5>
+                    <p id="homeparagraph">GL - (Gluten - Less)    SF - (Soy Free)   NF - (Nut Free)</p>
                     <?php $page = "kids_menu";  include_once('displayShoppingCart.php'); ?>
 
                     <table class="bordermenu"> 

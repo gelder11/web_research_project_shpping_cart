@@ -90,12 +90,13 @@
                         <h1>Tacos And Burritos</h1>
                         <br>
                         <br>
-                        <h5>GL - (Gluten - Less)    SF - (Soy Free)   NF - (Nut Free)</h5>
+                        </div>
+                        <p id="homeparagraph">GL - (Gluten - Less)    SF - (Soy Free)   NF - (Nut Free)</p>
 
-                        <h4>Add billy goat chips for $1 more / add housemade
+                        <p id="homeparagraph">Add billy goat chips for $1 more / add housemade
                             coleslaw or tater tots for $2 more / add
-                            a side kale salad for $3 more.</h4>
-                    </div>
+                            a side kale salad for $3 more.</p>
+                    
                     <?php $page = "tacos_and_burritos"; include_once('displayShoppingCart.php'); ?>
                     <table class="bordermenu"> 
                         <div id="product-grid">
