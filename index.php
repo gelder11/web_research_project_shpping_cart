@@ -99,12 +99,13 @@ for (i = 0; i < dropdown.length; i++) {
                         <td><img src="assets/Food3.jpg" ></td>
                     </tr>
                 </table>
+                <br>
                 <h3>Introduction:</h3>
-                <p>The Magnificent Mushroom is a sustainable neighborhood cafe that started out as a food truck in 2012 and opened up a brick and mortar in 2014.
+                <p id="homeparagraph">The Magnificent Mushroom is a sustainable neighborhood cafe that started out as a food truck in 2012 and opened up a brick and mortar in 2014.
                     Our mission is to offer a sustainable dining option that is incredibly delicious and doesn't take itself too seriously.</p>
                 <br>
                 <h3>We practice sustainability by:</h3>
-                <ul style=" list-style-position: inside;">
+                <ul style=" list-style-position: inside;" id="homelist">
                     <br>
                     <li>recycling and composting 95% of our waste</li>
                     <br>
@@ -131,7 +132,7 @@ for (i = 0; i < dropdown.length; i++) {
                     <source src="movies/lulu's local eatery.mp4" type="video/mp4">
                 </video> </center>
                 </br>
-                <ul style=" list-style-position: inside;">
+                <ul style=" list-style-position: inside;" id="homelist">
                     <br><br><br>
                     <h3>We are looking forward to seeing you. Come join us here:</h3>
                     <br>

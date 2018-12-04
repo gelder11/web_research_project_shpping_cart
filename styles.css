@@ -55,6 +55,7 @@ video{
 	color: #211a1a;
 	border-bottom: 1px inset #E0E0E0;
 	overflow: auto;
+        font-weight: 900; 
 }
 
 #btnEmpty {
@@ -160,6 +161,7 @@ video{
 	text-align: center;
 	clear: both;
 	margin: 38px 0px;
+        font-weight: 900;
 }
 
 * {
@@ -183,6 +185,8 @@ table#t01 {
 table#t02 {
     margin-left: auto;
     margin-right: auto;
+    font-weight: 900; 
+    font-size: 18px; 
 
 
 }
@@ -206,6 +210,7 @@ p {
     margin-bottom: 1em;
     margin-left: 10px;
     margin-right: 10px;
+    font-weight: 900; 
     ;
 }
 
@@ -322,6 +327,15 @@ h3 {
     font-family: "Racing Sans One", garamond, "times new roman", times, serif;
     padding-bottom: 10px;
 }
+#homelist{
+font-weight: 900;
+font-size: 18px; 
+}
+#homeparagraph{
+    font-weight: 900;
+font-size: 18px; 
+text-indent: 25px; 
+}
 
 h3#h31 {
     text-align: center;
@@ -337,6 +351,8 @@ h5 {
     padding-bottom: 10px;
     font-size: 1.2em;
     color: #000;
+    text-align: left; 
+    text-indent: 25px; 
 }
 
 ul,
@@ -346,6 +362,8 @@ ol {
 
 li {
     padding-bottom: 5px;
+    
+    
 }
 
 
@@ -584,8 +602,9 @@ footer p a:hover {
 
 table.bordermenu td {
     border-radius: 15px;
-    border-style: outset;
+    border: outset silver;
     text-align: left;
+    background-color: white; 
     
 }
 
@@ -600,27 +619,33 @@ table.bordermenu td {
 table.menuT {
     width: 700px;
     height: 600px;
-    font-weight: bold;
+    font-weight: 900;
     border-radius: 15px; 
     border-style: groove;
-    font-size: 0.7em; 
+    font-size: 0.8em; 
     color: #000;
+    background-color: white; 
+    
 }
 table.menuT1 {
     width: 700px;
     height: 600px;
-    font-weight: bold;
+    font-weight: 900;
     border-radius: 15px; 
     border-style: groove;
     color: #000;
+    font-size: 18px; 
+    background-color: white; 
 }
 
 #menuTd1:hover{
     filter: contrast(150%);
 }
 table.bordermenu p {
-     font-size: 16px; 
+     font-size: 18px; 
      text-align: left;
+     font-weight: 900; 
+     text-indent: 25px; 
       
      
 }
@@ -704,6 +729,8 @@ figure.sump {
     
 }
 .coffeelabfigure{
+  font-weight: 900;
+  font-size: 18px; 
   text-align: center;   
 }
 .socialmediabtn{
@@ -783,13 +810,13 @@ video{
 table.menuT   {
     width: 100px;
     height: 100px;
-    font-size: 0.5em; 
+    font-size: 0.8em; 
      
 }
 table.menuT1   {
     width: 100px;
     height: 100px;
-    font-size: 0.65em; 
+    font-size: 0.7em; 
     
 }
 .socialmediabtn img{
@@ -821,7 +848,11 @@ table.bordermenu tr {
     text-align: left;
     height: 100px; 
     width: 100px;
+table#t02 {
+    font-size: 1em
 
+
+}
 
 
 }
@@ -912,8 +943,8 @@ video{
     font-size: .5em
 }
 table.bordermenu p {
-     font-size: 10px; 
-     text-align: center;
+     font-size: 11px; 
+     text-align: left;
      padding-bottom: 0px; 
      margin-bottom: 0px
 }
@@ -932,6 +963,17 @@ table.bordermenu h3{
     height: 100px;
     width: 100px;
     
+}
+table#t02 {
+    font-size: 1em
+
+
+}
+#homeparagraph{
+    font-size: 1.1em; 
+}
+#homelist{
+    font-size: 1.1em; 
 }
 
 
